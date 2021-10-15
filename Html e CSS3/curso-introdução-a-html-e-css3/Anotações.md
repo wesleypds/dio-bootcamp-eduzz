@@ -16,22 +16,13 @@ A estrutura básica do html é composta por tags que formam essa estrutura.
 
 ```html
 <!DOCTYPE html>
-
 <html>
-
 ​	<head>
-
-
 ​		<meta>
-
 ​		<title></title> 
-
 ​	</head>
-
 ​	<body>
-
 ​	</body>
-
 </html>
 ```
 
