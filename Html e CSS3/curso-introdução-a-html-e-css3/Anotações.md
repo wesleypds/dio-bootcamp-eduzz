@@ -15,10 +15,6 @@ A estrutura básica do html é composta por tags que formam essa estrutura.
 ### Estrutura
 
 ```html
-```
-
-{
-
 <!DOCTYPE html>
 
 <html>
@@ -37,10 +33,6 @@ A estrutura básica do html é composta por tags que formam essa estrutura.
 ​	</body>
 
 </html>
-
-}
-
-```html
 ```
 
 **!DOCTYPE html**: Informa ao navegador que tipo de documento ele está lendo.
