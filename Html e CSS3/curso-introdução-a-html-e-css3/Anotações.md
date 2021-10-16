@@ -78,7 +78,9 @@ No segundo exemplo a ideia é a mesma, mas, apontando para o e-mail do usuário.
 
 `<a target="_blank">Link</a>`
 
-Neste exemplo é usado o atributo **target** com o parâmetro **_blank** indicando que o link será aberto em outra página.
+Neste exemplo é usado o atributo **target** com o parâmetro **_blank** indicando que o link será aberto em outra aba. Para ser usado basta adicionar o atributo no mesmo elemento que foi usado o atributo **href**.
+
+Por exemplo `<a href="link.com" target="_blank">Link</a>`
 
 ## Principais elementos HTML
 
