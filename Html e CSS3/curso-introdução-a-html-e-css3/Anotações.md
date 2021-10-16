@@ -1,6 +1,8 @@
 # Introdução a criação de websites com HTML5 e CSS3
 
-## Estrutura básica
+---
+
+## Estrutura básica | HTML5
 
 ### O que são tags?
 
@@ -52,6 +54,8 @@ Antes do html5, só era trabalhado dentro da estrutura do html com tags `<div>`,
 
 E por fim as tags **h1** até **h6**, que são usadas para títulos e sub-títulos das páginas, lembrando que a tag **h1** só é permitido ser usada uma vez por página.
 
+## Principais elementos HTML
+
 ### Tags de texto e links 
 
 #### 1. Tags de texto
@@ -80,7 +84,82 @@ No segundo exemplo a ideia é a mesma, mas, apontando para o e-mail do usuário.
 
 Neste exemplo é usado o atributo **target** com o parâmetro **_blank** indicando que o link será aberto em outra aba. Para ser usado basta adicionar o atributo no mesmo elemento que foi usado o atributo **href**.
 
-Por exemplo `<a href="link.com" target="_blank">Link</a>`
+Por exemplo `<a href="link.com" target="_blank">Link</a>`.
 
-## Principais elementos HTML
+#### 3. Tags link imagens
+
+Para adicionar uma imagem em uma página é usada a tag **img** que com o atributo **src** irá adicionar uma imagem através do link da imagem.
+
+Por exemplo `<img src="pasta/linkDaImagem">.`
+
+Em boas práticas sempre é bom colocar o nome da imagem que esta sendo adicionada, para que quando o navegador não estiver carregando a imagem, apareça pelo menos o nome dela, e isso é feito com o atributo **alt**.
+
+Por exemplo `<img src="pasta/linkDaImagem" alt="nomeDaImagem">`.
+
+Para altera o tamanho da imagem basta adicionar os atributos **width** e **height**, que são referentes a largura e a altura respectivamente, e como parâmetro basta usar o valor em pixel ou porcentagem.
+
+### Tags de listas
+
+Listas serve para agrupar uma coleção de itens, podem ser usadas em menus, enumerar tópicos dentro de uma página e etc.
+
+#### 1. Listas ordenadas
+
+Nas listas ordenadas, a posição dos elementos são importantes, já que nela esses elementos vão ser ordenados automaticamente. Para poder usar uma lista ordenada, é preciso usar a tag **ol** para indicar que a lista que você abrindo é uma lista ordenada, e para listar os elementos é preciso usar a tag **li** para cada elemento.
+
+Por exemplo:
+
+```html
+<ol>
+    <li>Item 1</li>
+    <li>Item 3</li>
+    <li>Item 2</li>
+</ol>
+```
+
+Neste exemplo, independente do elemento estiver enumerado, a lista seguirá com a ordenação dela.
+
+#### 2. Listas não ordenadas
+
+Nas listas não ordenadas, a posição dos elementos não são importantes, já que ela não irá enumerar os elementos. Para usar essa lista basta usar a tag **ul** para abrir a lista e a tag **li** para listar todos os elementos.
+
+Por exemplo:
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+```
+
+## O que são seletores | CSS3
+
+Os seletores em css são os elementos html, onde um conjunto de seletores ou apenas um, são aplicados a declarações, que podem mudar a sua cor, fonte, posição e etc.
+
+Por exemplo:
+
+```css
+a, p, h1, h3 {
+    color: blue;
+    font-size: 14px;
+}
+```
+
+Neste exemplo mostra um conjunto de seletores, que são eles as tags **a**, **p**, **h1** e **h3** sendo aplicada a eles as declarações **color: blue** que irá mudar a cor para azul, e **font-size: 14px** que vai alterar a fonte desses seletores para 14 pixels.
+
+Esses seletores são seletores de *tipo*, já que eles representam os elementos html. Neste exemplo, as declarações feitas vão modificar esses elementos em toda página, já que não existe um ID para qual elemento específico você queira modificar.
+
+### ID x Classe
+
+Os seletores de ID e Classe podem representar qualquer tipo de elemento, e ao contrário dos seletores *tipos*, quando um seletor ID e Classe for modificado, não irá modificar todos do mesmo tipo no arquivo html.
+
+As diferenças entre ID e Classe são que no html, a tag
+
+
+
+## Conceitos básicos
+
+
+
+## Principais seletores CSS
 
