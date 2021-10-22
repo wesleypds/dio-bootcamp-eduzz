@@ -151,15 +151,37 @@ Esses seletores são seletores de *tipo*, já que eles representam os elementos 
 
 ### ID x Classe
 
-Os seletores de ID e Classe podem representar qualquer tipo de elemento, e ao contrário dos seletores *tipos*, quando um seletor ID e Classe for modificado, não irá modificar todos do mesmo tipo no arquivo html.
+Os seletores de ID e Classe podem representar qualquer tipo de elemento, e ao contrário dos seletores *tipos*, quando um seletor ID e Classe for modificado, não irá modificar todos elementos do mesmo tipo no arquivo html.
 
-As diferenças entre ID e Classe são que no html, a tag
+No css o ID é precendido por uma "#" e a classe por um ".".
 
+Por exemplo:
 
+``` css
+.header {
+    padding: 10px;
+}
+
+#header {
+    padding: 15px;
+}
+```
+
+E a principal diferença dos dois é que o ID só pode ser usado uma única vez em uma página html.
 
 ## Conceitos básicos
 
+### Box models
 
+Quando se é desenvolvido um site, cada elemento html é representado por uma caixa retangular chamada **box model**, com ela é possivel através do css modificar o entorno dos elementos.
 
-## Principais seletores CSS
+O box model tem 4 áres, a **margin**, o **border**, o **padding** e o **content**.
+
+O elemento **margin** é o espaçamento entre os elementos do site.
+
+O elemento **border** é a borda que contorna um elemento do site, onde se pode ser alterada a sua cor e expessura.
+
+O elemento **padding** é o espaçamento entre a borda desse elemento e o conteúdo.
+
+Já o elemento **content** é o conteudo em si.
 
